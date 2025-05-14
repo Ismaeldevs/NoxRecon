@@ -60,7 +60,7 @@ noxrecon --help
 
 ## 🧪 Requisitos técnicos
 - Python 3.8 o superior (Recomendado: 3.10+)
-- Acceso Red y terminal UNIX-like
+- Acceso a Red y terminal UNIX-like
 - Herramientas de CLI: `dig`, `whois`, `curl`, `jq`, `whatweb`, `exiftool`
 
 ---
