@@ -1,8 +1,6 @@
 # NoxRecon dependencies
 # Compatible with Python >= 3.6
-
-# External tools required by NoxRecon (ensure they are installed on OS)
-# - whois
-# - dig (dnsutils)
-# - host
-
+click==8.1.7
+requests
+questionary==2.0.1
+colorama==0.4.6

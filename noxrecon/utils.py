@@ -1,22 +1,39 @@
 import subprocess
+from colorama import Fore, Style
 
-def run_command(command):
-    """Ejecuta un comando en la shell y devuelve la salida."""
-    try:
-        result = subprocess.run(command, shell=True, check=True, text=True, capture_output=True)
-        return result.stdout.strip()
-    except subprocess.CalledProcessError as e:
-        return f"[!] Error ejecutando comando: {e}"
+RED = Fore.RED
+GREEN = Fore.GREEN
+YELLOW = Fore.YELLOW
+CYAN = Fore.CYAN
+MAGENTA = Fore.MAGENTA
+RESET = Style.RESET_ALL
 
 def print_banner():
-    banner = r"""
+    banner = f"""{RED}
 ███╗░░██╗░█████╗░██╗░░██╗██████╗░███████╗░█████╗░░█████╗░███╗░░██╗
 ████╗░██║██╔══██╗╚██╗██╔╝██╔══██╗██╔════╝██╔══██╗██╔══██╗████╗░██║
 ██╔██╗██║██║░░██║░╚███╔╝░██████╔╝█████╗░░██║░░╚═╝██║░░██║██╔██╗██║
 ██║╚████║██║░░██║░██╔██╗░██╔══██╗██╔══╝░░██║░░██╗██║░░██║██║╚████║
 ██║░╚███║╚█████╔╝██╔╝╚██╗██║░░██║███████╗╚█████╔╝╚█████╔╝██║░╚███║
 ╚═╝░░╚══╝░╚════╝░╚═╝░░╚═╝╚═╝░░╚═╝╚══════╝░╚════╝░░╚════╝░╚═╝░░╚══╝
-                                                     
-    OSINT Reconnaissance Toolkit — by Pentesters, for Pentesters
-    """
+
+{MAGENTA}OSINT Reconnaissance Toolkit — by Pentesters, for Pentesters
+                                                                             
+{YELLOW}[*] Author: NoxRecon Team
+[*] NoxRecon v2.0.0 - Red Team OSINT Toolkit
+[*] Github: https://github.com/Ismaeldevs
+{RESET}"""
     print(banner)
+
+def print_info(msg): print(f"{CYAN}[i] {msg}{RESET}")
+def print_success(msg): print(f"{GREEN}[✓] {msg}{RESET}")
+def print_warning(msg): print(f"{YELLOW}[!] {msg}{RESET}")
+def print_error(msg): print(f"{RED}[x] {msg}{RESET}")
+
+def run_command(command):
+    try:
+        output = subprocess.check_output(command, shell=True, stderr=subprocess.DEVNULL, text=True)
+        return output.strip()
+    except subprocess.CalledProcessError:
+        print_error(f"Error ejecutando comando: {command}")
+        return None
