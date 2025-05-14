@@ -14,7 +14,7 @@
 - 🔍 Subdominios con [crt.sh](https://crt.sh)  
 - 🧠 Detección de tecnologías web con WhatWeb  
 - 🗺️ Geolocalización de IPs  
-- 🗂️ Extracción de metadatos de archivos [ExifTool](https://exiftool.org/)
+- 🗂️ Extracción de metadatos de archivos con [ExifTool](https://exiftool.org/)
 
 Todo en una interfaz estética e intuitiva que te sumerge en una experiencia profesional de análisis.
 
