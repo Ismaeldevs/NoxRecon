@@ -40,15 +40,21 @@ git clone https://github.com/tuusuario/noxrecon.git
 cd noxrecon
 ```
 2. Instalación de Dependencias
-```sudo apt update && sudo apt install -y whois dig curl jq whatweb exiftool```
+```
+sudo apt update && sudo apt install -y whois dig curl jq whatweb exiftool
+```
 
-3. Instalación de la herramienta
-```pip install .```
+4. Instalación de la herramienta
+```
+pip install .
+```
 
-4. Ejecuta NoxRecon
-```noxrecon --help```
+5. Ejecuta NoxRecon
+```
+noxrecon --help
+```
 
-![NoxRecon Screenshot](https://private-user-images.githubusercontent.com/32105395/443435749-25468676-c2f1-40d9-af85-d0048a83ee9d.png)
+![NoxRecon Screenshot]([https://private-user-images.githubusercontent.com/32105395/443435749-25468676-c2f1-40d9-af85-d0048a83ee9d.png](https://private-user-images.githubusercontent.com/32105395/443435749-25468676-c2f1-40d9-af85-d0048a83ee9d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDcxODIxNzQsIm5iZiI6MTc0NzE4MTg3NCwicGF0aCI6Ii8zMjEwNTM5NS80NDM0MzU3NDktMjU0Njg2NzYtYzJmMS00MGQ5LWFmODUtZDAwNDhhODNlZTlkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA1MTQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNTE0VDAwMTc1NFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWEzNGU4ZDgzZTYwNTBmMzc1ZTE5YTZkZTk2NGY1YjQ2Yzk3OTdlNGFjYTFlNTViMGExOTA3MTY5NjA2NDQ3ZjMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.xEqzDm0Qg5t2umMBA5IsltXDMzP132INQ6AGjsxYjB4))
 
 ---
 
