@@ -38,15 +38,15 @@ NoxRecon ha sido probado en los siguientes sistemas operativos:
 ```bash
 git clone https://github.com/tuusuario/noxrecon.git
 cd noxrecon
-
+```
 2. Instalación de Dependencias
-```sudo apt update && sudo apt install -y whois dig curl jq whatweb exiftool
+```sudo apt update && sudo apt install -y whois dig curl jq whatweb exiftool```
 
 3. Instalación de la herramienta
-```pip install .
+```pip install .```
 
 4. Ejecuta NoxRecon
-```noxrecon --help
+```noxrecon --help```
 
 ![NoxRecon Screenshot](https://private-user-images.githubusercontent.com/32105395/443435749-25468676-c2f1-40d9-af85-d0048a83ee9d.png)
 
