@@ -44,12 +44,12 @@ cd noxrecon
 sudo apt update && sudo apt install -y whois dig curl jq whatweb exiftool
 ```
 
-4. Instalación de la herramienta
+3. Instalación de la herramienta
 ```
 pip install .
 ```
 
-5. Ejecuta NoxRecon
+4. Ejecuta NoxRecon
 ```
 noxrecon --help
 ```
