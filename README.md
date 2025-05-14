@@ -1,29 +1,3 @@
-# NoxRecon
-
-**NoxRecon** es un toolkit de recolección de información (OSINT) diseñado por y para pentesters. Combina múltiples técnicas de obtención de datos en un único CLI moderno, rápido y estético. 
-
-### Características
-
-- WHOIS lookup
-- DNS lookup (A, MX y NS records)
-- Reverse IP lookup
-- Subdomains
-- WhatWeb
-- IP Geolocation
-- Extract Metadata
-### Instalación
-
-```bash
-git clone https://github.com/Ismaeldevs/noxrecon
-cd noxrecon
-pip install .
-
-
-
-
-
-
-
 # 🕵️‍♂️ NoxRecon - OSINT Toolkit
 
 **NoxRecon** es una herramienta de código abierto orientada al **OSINT (Open Source Intelligence)** y al reconocimiento de infraestructura digital, diseñada para equipos de **Red Teaming**, pentesters y profesionales de ciberseguridad ofensiva.
