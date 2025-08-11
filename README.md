@@ -13,7 +13,7 @@
 
 ## ✨ Características Principales v2.0.0
 
-### 🔍 **Operaciones OSINT Avanzadas**
+### 🔍 **Operaciones OSINT**
 - 🔎 **WHOIS Lookup** - Información de registro de dominios e IPs
 - 🌐 **DNS Lookup** - Consulta completa de registros DNS (A, AAAA, MX, NS, TXT, CNAME, SOA)
 - 🔄 **Reverse IP Lookup** - Resolución inversa de IPs a hostnames
@@ -313,8 +313,7 @@ Si encontraste útil esta herramienta:
 
 <div align="center">
 
-**[🔝 Volver al inicio](#-noxrecon-v200---professional-osint-toolkit)**
 
-*Hecho con ❤️ por la comunidad de ciberseguridad*
+*Hecho con ❤️ para la comunidad de ciberseguridad*
 
 </div>
