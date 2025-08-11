@@ -270,15 +270,6 @@ Este proyecto está licenciado bajo la **Licencia MIT** - consulta el archivo [L
 
 ---
 
-## 🙏 Agradecimientos
-
-- 🎨 [Rich](https://github.com/Textualize/rich) - Terminal formatting
-- ❓ [Questionary](https://github.com/tmbo/questionary) - Interactive prompts  
-- 🌐 [dnspython](https://github.com/rthalley/dnspython) - DNS toolkit
-- 🔗 [requests](https://github.com/psf/requests) - HTTP library
-- 📊 [crt.sh](https://crt.sh) - Certificate Transparency logs
-
----
 
 ## ⭐ ¿Te gustó NoxRecon?
 
