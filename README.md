@@ -261,7 +261,6 @@ NoxRecon v2.0.0 incluye un sistema de configuración flexible:
 **NoxRecon Team**
 - GitHub: [@Ismaeldevs](https://github.com/Ismaeldevs)
 - Website: [ismaeldev.com](https://www.ismaeldev.com/)
-- Twitter: [@Ismaeldevs](https://twitter.com/Ismaeldevs)
 
 ---
 
