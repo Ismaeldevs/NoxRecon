@@ -1,6 +1,12 @@
 # NoxRecon dependencies
-# Compatible with Python >= 3.6
+# Compatible with Python >= 3.8
 click==8.1.7
-requests
+requests>=2.31.0
 questionary==2.0.1
 colorama==0.4.6
+rich>=13.7.0
+asyncio
+aiohttp>=3.9.0
+validators>=0.22.0
+dnspython>=2.4.0
+tqdm>=4.66.0
