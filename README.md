@@ -166,6 +166,7 @@ noxrecon geo 8.8.8.8
 by Pentesters, for Pentesters
 Version 2.0.0 | Enhanced Edition
 ```
+<img width="1711" height="832" alt="Image" src="https://github.com/user-attachments/assets/a7216723-cb6f-4a4c-9f0f-f1aff8e8054a" />
 
 ### Resultados DNS
 ```
